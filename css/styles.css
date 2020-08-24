@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Chalkduster';
+    src:url('Chalkduster.ttf.woff') format('woff'),
+        url('Chalkduster.ttf.svg#Chalkduster') format('svg'),
+        url('Chalkduster.ttf.eot'),
+        url('Chalkduster.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	margin: 0 auto;
+	/*background-color: black;*/
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.container{
+	width: 1366px;
+}
+
+header{
+	width: 100%;
+	height: 40px;
+}
+.header-left img{
+	float: left;
+	height: 40px;
+	width: 300px;
+}
+.header-right img{
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+
+ nav{
+ 	background-color: black;
+ 	width: 100%;
+ 	height: 40px;
+ }
+ .nav-page{
+ 	float: right;
+ 	line-height: 40px;
+ 	margin-right: 10px;
+ }
+ .nav-page a{
+ 	display: inline-block;
+ 	color: white;
+ 	margin-right: 20px;
+ 	font-family: 'Chalkduster';
+ }
+  .nav-page a:hover{
+ 	opacity: 0.6;
+ }
+
+
+ .mainVisual{
+ 	background-image: url("../images/main.jpg");
+ 	width: 100%;
+ 	background-image: cover;
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ 	height:600px;
+ 	color: white;
+ 	position: relative;
+ 	margin-top: 10px;
+ 	/*font-family: 'Do Hyeon', sans-serif;*/
+ 	font-family: 'Russo One', sans-serif;
+ }
+ .mainVisual h2{
+ 	position: absolute;
+ 	top: 440px;
+ 	font-size: 60px;
+ }
+ .mainVisual p{
+ 	position: absolute;
+ 	top: 545px;
+ 	font-size: 20px;
+ }
+
+
+
+ .registration{
+	width: 600px;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form input[type=email]{
+	display: inline-block;
+	margin: 0 0 8px;
+	padding: .5em .5em;
+	width: 300px;
+	height: 1.4em;
+	background-color: #eee;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* 送信ボタン */
+form button{
+	padding: .5em 2em;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background-color: black;
+	font-size: 16px;
+	line-height: 1.5;
+	cursor: pointer;
+}
+
+form button:hover{
+	opacity: 0.7;
+}
+form input[type="email"]:focus,form button:focus{
+	outline: 0;
+}
+
+.featuredArea{
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding-top: 10px;
+
+}
+.featured{
+	float: left;
+	transition: 1s;
+}
+.featured:hover{
+	opacity: 0.7;
+}
+.featured-icon{
+	margin: 20px;
+	position: relative;
+
+}
+.featured p{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	color: white;
+	font-family: 'Chalkduster';
+	font-size: 20px;
+}
+
+.saleArea{
+	width: 100%;
+	background-color: black;
+	height: 345px;
+}
+.sale-img{
+	display: block;
+	float: left;
+	margin: 23px 50px;
+}
+.sale-txt{
+	color: white;
+	font-size: 20px;
+	font-family: 'Courier Prime',monospace;
+}
+.sale-txt h2{
+	margin-bottom: -10px;
+	padding-top: 20px;
+}
+.sale-txt p{
+	line-height: 40px;
+}
+.sale-txt a{
+	float: right;
+	margin-right: 60px;
+}
+.sale-txt a:hover{
+	font-weight: bold;
+
+}
+
+.trendingArea{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	height: 325px;
+/*	display: flex;
+  	justify-content: center;
+  	align-items: center;*/
+
+}
+
+.trending{
+	float: left;
+	width: 20%;
+	margin-bottom: 40px;
+
+}
+.trending img{
+
+}
+.trendingArea h2{
+	text-align: center;
+	color: black;
+}
+
+.trending p{
+	margin-top: -6px;
+	font-size: 14px;
+	color: black;
+}
+
+
+
+.contactArea{
+	width: 100%;
+	background-color: black;
+	height: 345px;
+	margin-bottom: 20px;
+}
+.contact-img{
+	display: block;
+	float: right;
+	margin: 23px 50px;
+}
+.contact-txt{
+	color: white;
+	font-size: 20px;
+	font-family: 'Courier Prime',monospace;
+	margin-left: 40px;
+}
+.contact-txt h2{
+	margin-bottom: -10px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.contact-txt p{
+	line-height: 40px;
+}
+.info{
+	float: right;
+	display: inline-block;
+	padding-left: 25px;
+}
+
+
+footer{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background-color: black;
+	color: white;
+}
